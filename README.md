@@ -47,9 +47,9 @@ REACT_APP_RPC_MAINNET=MAINNET_RPC_URL
 For Shyft docs, visit [Shyft Documentation](https://docs.shyft.to/).
 
 ## Running the App
-Start the development server:  
-npm run dev
-
+Start the development server:
+   ```bash
+   npm run dev
 Open http://localhost:3000 in your browser.
 
 ## Setup Video
