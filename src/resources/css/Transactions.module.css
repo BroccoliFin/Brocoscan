@@ -1,0 +1,936 @@
+
+
+.txn_section
+{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+}
+.txn_section .main_heading
+{
+    font: 500 22px/24px "Montserrat",sans-serif;
+    color: #fff;
+    padding-bottom: 12px;
+}
+@media screen and (max-width: 767px) {
+    .txn_section .main_heading
+    {
+        font: 500 18px/24px "Montserrat",sans-serif;
+        color: #fff;
+        padding-bottom: 12px;
+    }
+}
+.each_txn
+{
+    position: relative;
+    min-height: 150px;
+    background-color: #a254b033;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 14px;
+    padding: 16px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.each_txn .toggle_button
+{
+    position: absolute;
+    right: 16px;
+}
+
+.each_txn .toggle_button button
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.each_txn .tx_image
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.each_txn .tx_image img
+{
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    max-height: 80px;
+    object-fit: cover;
+    border-radius: 70px;
+}
+.each_txn .tx_field
+{
+    margin-bottom: 16px;
+}
+.each_txn .tx_field .tx_top
+{
+    font: 300 14px/20px "Montserrat",sans-serif;
+    color: #fffd;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-top: 10px;
+    padding-bottom: 18px;
+}
+.each_txn .tx_field .tx_bottom
+{
+    font: 400 16px/20px "Montserrat",sans-serif;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-top: 14px;
+    /* text-shadow: 0 0 1px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073; */
+}
+.each_txn .tx_field_sub
+{
+    padding: 0px 24px 0px 0px;
+    margin-bottom: 16px;
+}
+.each_txn .tx_field_sub .tx_top
+{
+    font: 300 14px/20px "Montserrat",sans-serif;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.each_txn .tx_field_sub .tx_bottom
+{
+    font: 500 16px/20px "Montserrat",sans-serif;
+    color: #F9B42E;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-top: 8px;
+}
+.each_txn .tx_field_sub_2
+{
+    padding: 0px 24px 0px 10px;
+    margin-bottom: 16px;
+}
+.each_txn .tx_field_sub_2 .tx_top
+{
+    font: 300 18px/20px "Montserrat",sans-serif;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.each_txn .tx_field_sub_2 .tx_bottom
+{
+    font: 500 16px/20px "Montserrat",sans-serif;
+    color: #F9B42E;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-top: 8px;
+}
+.each_txn .fieldset_2
+{
+    overflow: hidden;
+    padding: 12px 0px;
+}
+.each_txn .third_row
+{
+    padding-top: 12px;
+}
+
+.each_txn .tx_image_type
+{
+    margin-bottom: 16px;
+}
+.each_txn .tx_image_type .tx_type_image
+{
+    /* font: 300 18px/20px "Montserrat",sans-serif;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+    padding-top: 10px;
+    padding-bottom: 4px;
+    
+}
+.each_txn .tx_image_type .tx_type_image img
+{
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin: 0 auto;
+}
+.each_txn .tx_image_type .tx_type_text
+{
+    font: 600 12px/14px "Montserrat",sans-serif;
+    color: #0AEEFF;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-top: 14px;
+    text-align: center;
+}
+
+.each_txn_2
+{
+    position: relative;
+    min-height: 100px;
+    background-color: #9D56F933;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 14px;
+    padding: 16px 24px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.each_txn_2 .toggle_button
+{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.each_txn_2 .toggle_button .sol_icon img
+{
+    width: 20px;
+    height: 20px;
+}
+.each_txn_2 .txn_name
+{
+    font: 500 16px/20px "Montserrat",sans-serif;
+    padding: 10px 0px;
+    color: #FDF41B;
+}
+.each_txn_2 .interacted_with
+{
+    font: 500 16px/20px "Montserrat",sans-serif;
+    padding: 4px 0px;
+    color: #fff;
+}
+.each_txn_2 .dynamic_field
+{
+    font: 400 14px/14px "Montserrat",sans-serif;
+    /* letter-spacing: 1px; */
+    padding: 4px 0px;
+    color: #FFFA;
+}
+.each_txn_2 .dynamic_field a
+{
+    text-decoration: none;
+    color: inherit;
+}
+.each_txn_2 .dynamic_field_2
+{
+    font: 400 16px/16px "Montserrat",sans-serif;
+    /* letter-spacing: 1px; */
+    padding: 14px 0px;
+    color: #FFFFFF;
+}
+.each_txn_2 .dynamic_field_2 a
+{
+    text-decoration: none;
+    color: inherit;
+}
+.each_txn_2 .field_1
+{
+    font: 400 16px/16px "Montserrat",sans-serif;
+    padding: 14px 0px;
+    color: #FFF;
+}
+.plus_color
+{
+    color: #FDF41B !important; 
+}
+.minus_color
+{
+    color: #FF5454 !important; 
+}
+
+.each_txn_2 .token_image_sm img
+{
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    object-fit: fill;
+}
+.each_txn_2 button
+{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    width: 20px;
+    height: 20px;
+}
+.each_txn_2 button img
+{
+    
+    width: 18px;
+    height: 18px;
+}
+.each_txn_2 .small_pad
+{
+    padding-top: 2px;
+}
+
+.each_txn_3
+{
+    position: relative;
+    min-height: 100px;
+    background-color: #3C1B67;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 14px;
+    border: 2px solid transparent;
+    padding: 16px 32px;
+    margin-bottom: 36px;
+    transition: all 0.05s ease;
+}
+.each_txn_3:hover
+{
+    border: 2px solid #01b4e0;
+}
+.each_txn_3 .clickable_section
+{
+    position: absolute;
+    top: 0;
+    right: 4px;
+    z-index: 1;
+    width: 99%;
+    height: 100%;
+    /* background-color: pink; */
+}
+.each_txn_3 .toggle_button
+{
+    position: absolute;
+    top: 26px;
+    right: 20px;
+    display: flex;
+    justify-content: end;
+    z-index: 2;
+}
+
+.each_txn_3 .toggle_button .sol_icon img
+{
+    width: 20px;
+    height: 20px;
+}
+.each_txn_3 .toggle_button .sol_icon_2 img
+{
+    width: 24px;
+    height: 24px;
+}
+.each_txn_3 .open_in_new
+{
+    font: 300 16px/16px "Poppins",sans-serif;
+    color: #FDF41B;
+    /* border: 2px solid white; */
+    /* background-color: #FDF41B; */
+    /* border-radius: 12px; */
+    /* margin-left: 2px; */
+    margin-top: -1px;
+    padding: 6px 10px 6px;
+}
+.each_txn_3 .toggle_button .copyTxnSig
+{
+    margin-top: -2px;
+}
+.each_txn_3 .toggle_button .copyTxnSig img
+{
+    width: 22px;
+    height: 22px;
+}
+@media screen and (max-width: 767px) {
+    
+    .each_txn_3 .toggle_button
+    {
+        top: 10px;
+        right: 12px;
+        
+    }
+    .each_txn_3 .toggle_button .sol_icon img
+    {
+        width: 14px;
+        height: 14px;
+    }
+    .each_txn_3 .toggle_button .sol_icon_2 img
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+    .each_txn_3 .toggle_button .copyTxnSig img
+    {
+        /* display:none; */
+    }
+}
+/* .each_txn_3 .txn_name_section
+{
+    background-color: #01b4e0;
+    position: relative;
+    z-index: 1;
+} */
+.each_txn_3 .txn_name
+{
+    font: 600 22px/24px "Geologica",sans-serif;
+    padding: 10px 20px 24px 0px;
+    color: #FDF41B;
+    position: relative;
+    z-index: 2;
+}
+.each_txn_3 .txn_status
+{
+    padding: 2px 2px 0px 2px;
+    position: relative;
+    z-index: 2;
+    margin-top: -3px;
+}
+.each_txn_3 .txn_status img
+{
+    width: 18px;
+}
+.each_txn_3 .txn_subname
+{
+    font: 300 11px/28px "Jost",sans-serif;
+    padding: 10px 20px 10px 0px;
+    color: #FFFFFF99;
+    position: relative;
+    z-index: 2;
+}
+.each_txn_3 .txn_signature
+{
+    font: 300 10px/24px "Jost",sans-serif;
+    padding: 10px 10px 10px 0px;
+    color: #FFFFFF99;
+    position: relative;
+    z-index: 2;
+    margin-top: -8px;
+}
+.each_txn_3 .interacted_with
+{
+    font: 500 16px/20px "Jost",sans-serif;
+    padding: 4px 0px;
+    color: #fff;
+}
+.each_txn_3 .responsive_spacer {
+    height: 0px;
+    width: 0px;
+}
+.each_txn_3 .responsive_spacer_bottom {
+    height: 0px;
+    width: 0px;
+}
+@media screen and (max-width:767px) {
+    .each_txn_3
+    {
+        position: relative;
+        border: 2px solid transparent;
+        padding: 4px 16px;
+        margin-bottom: 20px;
+        transition: all 0.1s ease;
+    }
+    .each_txn_3 .txn_name
+    {
+        font: 500 16px/20px "Geologica",sans-serif;
+        padding-bottom: 0px;
+    }
+    .each_txn_3 .txn_subname
+    {
+        font: 300 11px/20px "Jost",sans-serif;
+        padding: 10px 20px 0px 0px;
+        color: #FFFFFF99;
+    }
+    .each_txn_3 .txn_signature
+    {
+        font: 300 11px/14px "Jost",sans-serif;
+        padding: 6px 20px 20px 0px;
+        color: #FFFFFF99;
+    }
+    .each_txn_3 .txn_signature
+    {
+        margin-top: 0px;
+    }
+    .each_txn_3 .responsive_spacer {
+        height: 30px;
+        width: 100%;
+    }
+    .each_txn_3 .responsive_spacer_bottom {
+        height: 18px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .each_txn_3 {
+        padding-bottom: 16px;
+    }
+    .each_txn_3 .txn_name
+    {
+        font: 500 16px/20px "Geologica",sans-serif;
+        padding: 0px 20px 0px 0px;
+    }
+    .each_txn_3 .txn_subname
+    {
+        font: 300 11px/20px "Jost",sans-serif;
+        padding: 0px 20px 0px 0px;
+        color: #FFFFFF99;
+    }
+    .each_txn_3 .responsive_spacer {
+        height: 32px;
+        width: 100%;
+    }
+    .each_txn_3 .responsive_spacer_bottom {
+        height: 16px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 435px) {
+    
+    .each_txn_3 .txn_name
+    {
+        font: 500 16px/20px "Geologica",sans-serif;
+        padding: 0px 20px 0px 0px;
+    }
+    .each_txn_3 .txn_subname
+    {
+        font: 300 11px/14px "Jost",sans-serif;
+        padding: 4px 20px 6px 2px;
+        color: #FFFFFF99;
+    }
+    .each_txn_3 .responsive_spacer {
+        height: 32px;
+        width: 100%;
+    }
+    .each_txn_3 .responsive_spacer_bottom {
+        height: 8px;
+        width: 100%;
+    }
+    
+}
+.each_txn_3 .dynamic_field
+{
+    font: 400 14px/14px "Jost",sans-serif;
+    /* letter-spacing: 1px; */
+    padding: 4px 0px;
+    color: #FFFA;
+}
+.each_txn_3 a
+{
+    text-decoration: none;
+    color: inherit;
+}
+.each_txn_3 a:hover
+{
+    text-decoration: none;
+    color: #0AEEFF;
+}
+.each_txn_3 .dynamic_field_2
+{
+    font: 400 16px/16px "Montserrat",sans-serif;
+    /* letter-spacing: 1px; */
+    padding: 14px 0px;
+    color: #FFFFFF;
+}
+.each_txn_3 .dynamic_field_2 a
+{
+    text-decoration: none;
+    color: inherit;
+}
+.each_txn_3 .field_1
+{
+    font: 400 16px/16px "Poppins",sans-serif;
+    padding: 14px 0px;
+    color: #FFF;
+}
+.each_txn_3 .plus_color
+{
+    color: #FDF41B !important; 
+}
+.each_txn_3 .minus_color
+{
+    color: #FF5454 !important; 
+}
+
+.each_txn_3 .token_image_sm img
+{
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    object-fit: fill;
+}
+.each_txn_3 button
+{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    width: 20px;
+    height: 20px;
+}
+.each_txn_3 button img
+{
+    
+    width: 18px;
+    height: 18px;
+}
+.each_txn_3 .small_pad
+{
+    padding-top: 2px;
+}
+.sub_txns
+{
+    position: relative;
+    width: 91%;
+    margin: 0 auto;
+    padding-bottom: 14px;
+}
+/* .sub_txns::before
+{
+    content: "-----";
+    color: #01b4e0;
+    position: absolute;
+} */
+@media screen and (max-width: 1100px) {
+    .sub_txns
+    {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 0px;
+    } 
+}
+.sub_txns .thumb_container
+{
+    padding-right: 8px;
+    position: relative;
+    z-index: 2;
+}
+.sub_txns .thumb_container img
+{
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+    object-fit: fill;
+
+}
+.sub_txns .txn_details
+{
+    padding: 4px 8px;
+    width: 100%;
+}
+
+.sub_txns .txn_details .subtxn_token
+{
+    font: 400 15px/24px "Geologica",sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+}
+.sub_txns .push_to_top
+{
+    background-color: #01b4e0;
+    position: relative;
+    z-index: 5;
+} 
+.sub_txns .field_sub_1
+{
+    font: 400 14px/26px "Jost",sans-serif;
+    color: #FFF6;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.sub_txns .field_sub_1 .bolder
+{
+    font: 300 14px/26px "Jost",sans-serif;
+    color: #FFFF !important; 
+}
+.sub_txns .field_sub_2
+{
+    font: 400 16px/26px "Jost",sans-serif;
+    color: #FFFFFF;
+    /* width: 200px; */
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    float: right;
+}
+.sub_txns .field_sub_3
+{
+    font: 300 14px/26px "Jost",sans-serif;
+    color: #FFFFFF;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.sub_txns .plus_color
+{
+    color: #FDF41B !important; 
+    /* font-weight: 500; */
+}
+.sub_txns .minus_color
+{
+    color: #FF5454 !important; 
+}
+.sub_txns .approve_color
+{
+    color: #4cfc86 !important; 
+    font-weight: 500;
+}
+.sub_txns a
+{
+    text-decoration: none;
+    color: inherit;
+}
+.sub_txns a:hover
+{
+    text-decoration: none;
+    color: #0AEEFF;
+}
+.sub_txns .copy_bt
+{
+    display: block;
+    margin-top: -2px;
+}
+.sub_txns .second_token_field
+{
+    display: flex;
+}
+.sub_txns .second_token_field .second_token_image
+{
+    margin-top: -8px;
+    padding: 0px 12px 0px 10px;
+}
+.sub_txns .second_token_field .second_token_image img
+{
+    width: 38px;
+    height: 38px;
+    border-radius: 20px;
+}
+.sub_txns .royalty_badge
+{
+    padding: 5px 2px 2px 8px;
+    background-color: #1E0C36;
+    width: 100%;
+    max-width: 94px;
+    font: 300 10px/12px "Jost",sans-serif !important;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+.could_not_text
+{
+    font: 300 16px/20px "Poppins",sans-serif;
+    color: #FFF3;
+    /* letter-spacing: 1px; */
+}
+@media screen and (max-width: 767px) {
+    .sub_txns .thumb_container
+    {
+        padding-right: 4px;
+    }
+    .sub_txns .thumb_container img
+    {
+        width: 24px;
+        height: 24px;
+        border-radius: 12px;
+        object-fit: fill;
+
+    }
+    .sub_txns .txn_details
+    {
+        padding: 4px 8px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .sub_txns .txn_details .subtxn_token
+    {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .sub_txns .field_sub_1
+    {
+        font: 400 14px/26px "Jost",sans-serif;
+        color: #FFF;
+        width: 100%;
+    }
+    .sub_txns .copy_bt
+    {
+        display: none;
+        /* margin-top: -2px; */
+    }
+    .sub_txns .second_token_field .second_token_image
+    {
+        margin-top: -8px;
+        padding: 0px 12px 0px 10px;
+    }
+    .sub_txns .second_token_field .second_token_image img
+    {
+        width: 24px;
+        height: 24px;
+        border-radius: 20px;
+    }
+    .sub_txns .field_sub_2
+    {
+        font: 400 14px/26px "Jost",sans-serif;
+    }
+}
+@media screen and (max-width: 576px) {
+    .sub_txns .field_sub_1
+    {
+        font: 400 12px/26px "Jost",sans-serif;
+        width: 100%;
+    }
+    .sub_txns .field_sub_2
+    {
+        font: 400 12px/26px "Jost",sans-serif;
+    }
+    
+}
+.refresh_section
+{
+    background-color: #1C1C1C;
+    padding: 16px 20px;
+    margin-top: 14px;
+    margin-bottom: 34px;
+    border-radius: 8px;
+    font: 300 16px/16px "Jost",sans-serif;
+    color: #FFF;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.refresh_section .loading_image
+{
+    display: inline;
+    width: 16px;
+    margin-right: 8px;
+}
+.refresh_section .duration_image
+{
+    display: inline;
+    width: 12px;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-top: -2px;
+}
+.refresh_text_one
+{
+    font: 300 16px/16px "Geologica",sans-serif;
+    padding-top: 2px;
+}
+.collapsible_area
+{
+    overflow: hidden;
+}
+
+
+.feed_txn_outer
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+.feed_txn_outer .feed_txn_signer
+{
+    padding: 0px 0px 14px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.feed_txn_outer .feed_txn_signer .copy_btn_container
+{
+    margin-left: 2px;
+}
+.feed_txn_outer .feed_txn_signer .copy_btn_container button
+{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    margin-top: -5px;
+}
+.feed_txn_outer .feed_txn_signer .copy_btn_container button img {
+    width: 20px;
+}
+.feed_txn_signer .avatar_area img
+{
+    width: 28px;
+    margin-right: 10px;
+}
+.feed_txn_signer .avatar_area span
+{
+    font: 500 16px/18px "Geologica",sans-serif;
+    color: #FFF;
+    transition: color 0.1s ease;
+}
+.feed_txn_signer .avatar_area a.text
+{
+    font: 500 16px/18px "Geologica",sans-serif;
+    color: #FFF;
+}
+.feed_txn_signer .link_labels_2
+{
+    color: #FFF;
+    text-decoration: none;
+    /* cursor: pointer; */
+}
+.feed_txn_signer .link_labels_2:hover span {
+    color: #0AEEFF;
+}
+.feed_txn_outer .time_area
+{
+    font: 400 14px/18px "Jost",sans-serif;
+    color: #FFF;
+    padding: 0px 0px 16px;
+}
+.feed_txn_outer_2
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    /* margin-top: -10px; */
+}
+.feed_txn_outer_2 .time_area
+{
+    font: 400 14px/18px "Jost",sans-serif;
+    color: #FFF;
+    padding: 0px 0px 16px;
+    margin-top: -20px;
+}
+@media screen and (max-width: 576px) {
+    .feed_txn_outer_2 .time_area
+    {
+        font: 400 12px/18px "Jost",sans-serif;
+        padding: 0px 0px 10px;
+        margin-top: -8px;
+    }
+    
+}
+.border_area_feed
+{
+    border-left: 2px dotted rgba(255, 255, 255, 0.533); 
+    padding-left: 20px;
+}
+@media screen and (max-width: 576px) { 
+    .border_area_feed
+    {
+        border-left: 2px dotted rgba(255, 255, 255, 0.333); 
+        padding-left: 8px;
+    } 
+    .feed_txn_outer .feed_txn_signer
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}

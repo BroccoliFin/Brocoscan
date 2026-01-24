@@ -1,0 +1,428 @@
+
+/* NFT page styles */
+.entire_nft_expanded
+{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.nft_image_container
+{
+    width: 95%;
+    padding: 10px 10px 0px;
+    max-height: 500px;
+    border-radius: 16px;
+
+}
+.view_original_button
+{
+ padding-top: 14px;
+ font: 400 12px/18px "Jost", sans-serif;
+ text-align: center;
+ /* padding-right: 10px; */
+}
+.view_original_button a
+{
+    text-decoration: none;
+    color: #fffc;
+}
+.view_original_button a:hover
+{
+    text-decoration: none;
+    color: #0AEEFF;
+}
+.download_button
+{
+    padding-top: 14px;
+    font: 400 12px/18px "Jost", sans-serif;
+    text-align: center;
+    color: #fffc;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.download_button:hover
+{
+    color: #0AEEFF;
+}
+.nft_image_container img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    aspect-ratio: 1/1;
+    border-radius: 16px;   
+}
+.nft_image_container_mob
+{display: none;}
+@media screen and (max-width: 991px){
+    .nft_image_container_mob
+    {
+        display: block;
+        width: 70%;
+        padding: 10px 10px 0px;
+        /* max-height: 500px; */
+        aspect-ratio: 1;
+        border-radius: 16px;
+        margin-bottom: 30px;
+        margin: 0 auto;
+    
+    }
+    .nft_image_container_mob img
+    {
+        width: 100%;
+        /* height: 100%; */
+        
+        object-fit: fill;
+        border-radius: 16px;   
+    } 
+    .nft_image_container
+    {
+        display: none;
+
+    }
+    .entire_nft_expanded
+    {
+        
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 576px){
+    .nft_image_container_mob
+    {
+        display: block;
+        width: 98%;
+        padding: 10px 10px 0px;
+        /* max-height: 500px; */
+        aspect-ratio: 1;
+        border-radius: 16px;
+        margin-bottom: 30px;
+    
+    }
+    .nft_image_container_mob img
+    {
+        width: 100%;
+        /* height: 100%; */
+        
+        object-fit: fill;
+        border-radius: 16px;   
+    } 
+    .nft_image_container
+    {
+        display: none;
+
+    }
+    .entire_nft_expanded
+    {
+        
+        padding-top: 10px;
+    }
+}
+.nft_model_container
+{
+    padding-bottom: 8px;
+    
+}
+.nft_model_container .nft_model_inner_container
+{
+    background-color: #3C1B67;
+    width: 100%;
+    aspect-ratio: 1.1/1;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+.nft_name
+{
+    font: 600 34px/40px "Geologica", sans-serif;
+    background: -webkit-linear-gradient(278deg, #FF008A 1%, #F3DD59 95%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* letter-spacing: 2px; */
+    width: auto;
+    display: inline;
+}
+.nft_section
+{
+    padding-top: 10px;
+}
+.nft_section .section_heading
+{
+    font: 500 18px/22px "Geologica", sans-serif;
+    color: #fff;
+}
+.nft_section .section_desc
+{
+    font: 300 16px/24px "Jost", sans-serif;
+    color: #fff;
+}
+.nft_section .section_desc_link
+{
+    text-decoration: none;
+    font: 500 16px/24px "Jost", sans-serif;
+    color: #e0499b;
+    transition: color 0.2s ease;
+}
+.nft_section .section_desc_link:hover
+{
+    /* text-decoration: none; */
+    color: #0AEEFF;
+}
+.nft_section .table_container
+{
+    border-radius: 10px;
+    background-color: #3C1B67;
+    padding: 24px 24px;
+    backdrop-filter: blur(10px);
+}
+.nft_section .table_container .each_row
+{
+    padding-top:28px;
+}
+.nft_section .table_container .each_row button
+{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.nft_section .table_container .each_row button img
+{
+    width: 18px;
+}
+.nft_section .table_container .each_row:first-of-type
+{
+    padding-top:0px;
+}
+.nft_section .table_container .table_field_name
+{
+    font: 300 16px/20px "Plus Jakarta Sans", sans-serif;
+    font: 300 16px/20px "Jost", sans-serif;
+    color: #fff;
+
+}
+.nft_section .table_container .table_field_value
+{
+    font: 500 16px/19px "Jost", sans-serif;
+    font: 500 16px/19px "Plus Jakarta Sans", sans-serif;
+    color: #fff;
+    text-align: end;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.nft_section .table_container .table_field_value a
+{
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.1s ease;
+}
+.nft_section .table_container .table_field_value a:hover
+{
+    
+    color: #0AEEFF;
+}
+
+.nft_section .attributes_section .each_attribute
+{
+    background-color: #3C1B67;
+    padding: 16px;
+    border-radius: 12px;
+    margin-top: 14px;
+}
+.each_attribute .attribute_label
+{
+    font: 300 16px "Jost", sans-serif;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.each_attribute .attribute_value
+{
+    font: 500 16px/16px "Jost", sans-serif;
+    color: #fff;
+    text-align: end;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.nft_section .table_container_creator
+{
+    border-radius: 10px;
+    background-color: #3C1B67;
+    padding: 24px 24px;
+    backdrop-filter: blur(10px);
+}
+.nft_section .table_container_creator .each_row
+{
+    padding-top:28px;
+}
+.nft_section .table_container_creator .each_row button
+{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.nft_section .table_container_creator .each_row button img
+{
+    width: 18px;
+}
+.nft_section .table_container_creator .each_row:first-of-type
+{
+    padding-top:0px;
+}
+.nft_section .table_container_creator .table_field_name
+{
+
+    font: 500 16px/19px "Plus Jakarta Sans", sans-serif;
+    color: #fff;
+    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.nft_section .table_container_creator .table_field_value
+{
+    
+    font: 300 16px/20px "Jost", sans-serif;
+    color: #fff;
+    text-align: end;
+}
+.nft_section .table_container_creator .table_field_name a
+{
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.1s ease;
+}
+.nft_section .table_container_creator .table_field_name a:hover
+{
+    
+    color: #0AEEFF;
+}
+
+@media screen and (max-width:767px) {
+    .nft_name
+    {
+        font: 600 32px/40px "Geologica", sans-serif;
+        
+        width: auto;
+        display: inline;
+    }
+    .nft_section .section_heading
+    {
+        font: 500 16px/20px "Geologica", sans-serif;
+    }
+    .nft_section .section_desc
+    {
+        font: 300 14px/22px "Jost", sans-serif;
+        color: #fffc;
+    }
+    .nft_section .table_container
+    {
+        border-radius: 10px;
+        background-color: #3C1B67;
+        padding: 18px 16px;
+    }
+    .nft_section .table_container .each_row
+    {
+        padding-top:17px;
+    }
+    .nft_section .table_container .table_field_name
+    {
+        font: 300 13px/18px "Geologica", sans-serif;
+        color: #fff;
+
+    }
+    .nft_section .table_container .table_field_value
+    {
+        font: 500 13px/16px "Jost", sans-serif;
+        color: #fff;
+        text-align: end;
+        
+
+    }
+    .nft_section .table_container_creator
+    {
+        border-radius: 10px;
+        background-color: #3C1B67;
+        padding: 18px 16px;
+    }
+    .nft_section .table_container_creator .each_row
+    {
+        padding-top:17px;
+    }
+    .nft_section .table_container_creator .table_field_name
+    {
+        font: 500 13px/16px "Jost", sans-serif;
+        color: #fff;
+        
+    }
+    .nft_section .table_container_creator .table_field_value
+    {
+        font: 300 13px/18px "Geologica", sans-serif;
+        color: #fff;
+        text-align: end;
+    }
+    .nft_section .attributes_section .each_attribute
+    {
+        padding: 16px;
+        border-radius: 8px;
+    }
+    .each_attribute .attribute_label
+    {
+        font: 300 13px/16px "Geologica", sans-serif;
+        
+    }
+    .each_attribute .attribute_value
+    {
+        font: 500 13px/16px "Geologica", sans-serif;
+        color: #fff;
+        text-align: end;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+.nft_model_modal
+{
+    display: block;
+    position: fixed;
+    z-index: 99;
+    background-color: #000A;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: hidden !important;
+}
+.nft_model_modal .nft_modal
+{
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    aspect-ratio: 1;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding: 16px 4px;
+}
+.nft_model_modal .nft_close_button
+{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: 0;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    font: 400 26px/26px "Poppins", sans-serif;
+    color: #F3DD59ee;
+    padding: 16px 4px;
+}

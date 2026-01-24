@@ -1,0 +1,91 @@
+import { motion } from "framer-motion";
+import { useState } from "react";
+import Tooltip from "react-tooltip-lite";
+
+import copyIcon from "../../resources/images/txnImages/copy_icon.svg";
+import unknown from "../../resources/images/txnImages/unknown_token.png";
+import { shortenAddress } from "../../utils/formatter";
+
+const EachTabToken = ({ styles, token, cluster }) => {
+  const [copied, setCopied] = useState("Copy");
+  const copyValue = (value) => {
+    navigator.clipboard.writeText(value);
+    setCopied("Copied");
+    setTimeout(() => {
+      setCopied("Copy");
+    }, 1000);
+  };
+
+  return (
+    <div className={styles.each_tab_token}>
+      <div className={styles.name_section}>
+        <div className="d-flex flex-wrap">
+          <div className={styles.name}>{token.info.name || "Unknown"}</div>
+          <div className={styles.sub_name}>{token.info.symbol}</div>
+        </div>
+        <div className={styles.sub_name_mob}>{token.info.symbol}</div>
+      </div>
+      <div className={styles.info_section}>
+        <div className="row">
+          <div className="col-12 col-md-1">
+            <div className={styles.token_image_container}>
+              <img
+                src={
+                  token.info.image.includes("ray-initiative.gift") ||
+                  token.info.image.includes("dex-ray.gift")
+                    ? unknown
+                    : token.info.image || unknown
+                }
+                onError={({ currentTarget }) => {
+                  currentTarget.onerror = null;
+                  currentTarget.src = unknown;
+                }}
+                alt="Unknown Token"
+              />
+            </div>
+          </div>
+          <div className="col-6 col-md-6 text-start">
+            <div className="d-flex">
+              <div className={styles.field}>
+                <a
+                  href={
+                    cluster === "mainnet-beta"
+                      ? `/address/${token.address}`
+                      : `/address/${token.address}?cluster=${cluster}`
+                  }
+                >
+                  {shortenAddress(token.address) || "unknown"}
+                </a>
+              </div>
+              <div className="ps-1">
+                <Tooltip
+                  content={copied}
+                  className="myTarget"
+                  direction="left"
+                  useHover={true}
+                  background="#101010"
+                  color="#fefefe"
+                  arrowSize={0}
+                >
+                  <motion.button
+                    className={styles.copyTxnSig}
+                    onClick={() => copyValue(token.address)}
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    <img src={copyIcon} alt="Copy Value" />
+                  </motion.button>
+                </Tooltip>
+              </div>
+            </div>
+          </div>
+          <div className="col-6 col-md-5 text-end">
+            <div className={styles.field}>{token.balance}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default EachTabToken;
