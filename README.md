@@ -48,9 +48,10 @@ For Shyft docs, visit [Shyft Documentation](https://docs.shyft.to/).
 
 ## Running the App
 Start the development server:
-   ```bash npm run dev
+   ```bash
+   npm run dev
 Open http://localhost:3000 in your browser.
-
+```
 ## Setup Video
 Watch the setup and demo: [YouTube Video](https://www.youtube.com/watch?v=example) (replace with actual link).
 
