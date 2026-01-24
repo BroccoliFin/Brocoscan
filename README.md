@@ -24,13 +24,16 @@ Built on top of Create React App with custom overrides. Inspired by Solana ecosy
 - Solana Wallet (e.g., Phantom) for optional interactions
 
 ## Installation
-1. Clone the repository:  
+1ю  Clone the repository:
+   ```bash
    git clone https://github.com/BroccoliFin/Brocoscan.git
 
-2. Navigate to the project directory:  
+2. Navigate to the project directory:
+   ```bash  
    cd Brocoscan
 
-3. Install dependencies:  
+3. Install dependencies:
+   ```bash  
    npm install
 
 ## Environment Variables
@@ -43,8 +46,9 @@ REACT_APP_RPC_MAINNET=MAINNET_RPC_URL
 For Shyft docs, visit [Shyft Documentation](https://docs.shyft.to/).
 
 ## Running the App
-Start the development server:  
-npm run dev
+Start the development server:
+   ```bash 
+   npm run dev
 
 Open http://localhost:3000 in your browser.
 
