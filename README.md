@@ -30,7 +30,6 @@ Built on top of Create React App with custom overrides. Inspired by Solana ecosy
 
 Navigate to the project directory:
    ```bash
-
    cd Brocoscan
 
 
