@@ -24,73 +24,65 @@ Built on top of Create React App with custom overrides. Inspired by Solana ecosy
 - Solana Wallet (e.g., Phantom) for optional interactions
 
 ## Installation
-1. Clone the repository:
-   ```bash
+1. Clone the repository:  
    git clone https://github.com/BroccoliFin/Brocoscan.git
 
-Navigate to the project directory:bash
+2. Navigate to the project directory:  
+   cd Brocoscan
 
-cd Brocoscan
+3. Install dependencies:  
+   npm install
 
-Install dependencies:bash
-
-npm install
-
-Environment VariablesCopy .env.example to .env and fill in:
-
-REACT_APP_API_EP=YOUR_RPC_URL
-REACT_APP_API_KEY=YOUR_SHYFT_API_KEY
-REACT_APP_GA_ID=YOUR_GOOGLE_ANALYTICS_ID
+## Environment Variables
+Copy .env.example to .env and fill in:  
+REACT_APP_API_EP=YOUR_RPC_URL  
+REACT_APP_API_KEY=YOUR_SHYFT_API_KEY  
+REACT_APP_GA_ID=YOUR_GOOGLE_ANALYTICS_ID  
 REACT_APP_RPC_MAINNET=MAINNET_RPC_URL
 
-For Shyft docs, visit Shyft Documentation.
+For Shyft docs, visit [Shyft Documentation](https://docs.shyft.to/).
 
-Running the AppStart the development server:
-bash
+## Running the App
+Start the development server:  
 npm run dev
 
 Open http://localhost:3000 in your browser.
 
-Setup VideoWatch the setup and demo: YouTube Video (replace with actual link).
+## Setup Video
+Watch the setup and demo: [YouTube Video](https://www.youtube.com/watch?v=example) (replace with actual link).
 
-UsageConfigure your .env with Shyft API key and RPC.
-Run the app with 
-npm run dev.
-Explore Solana data: Search addresses, view blocks/transactions.
-Customize: Add features like wallet connection or advanced filters.
+## Usage
+1. Configure your .env with Shyft API key and RPC.
+2. Run the app with npm run dev.
+3. Explore Solana data: Search addresses, view blocks/transactions.
+4. Customize: Add features like wallet connection or advanced filters.
 
-Warning: This is experimental; audit for production. Review API usage limits.DependenciesKey libraries (from package.json):Blockchain: @solana
-/web3.js.
-UI/State: react, react-dom, react-scripts.
-Others: Shyft API integration, Google Analytics.
+**Warning:** This is experimental; audit for production. Review API usage limits.
+
+## Dependencies
+Key libraries (from package.json):  
+- Blockchain: @solana/web3.js.  
+- UI/State: react, react-dom, react-scripts.  
+- Others: Shyft API integration, Google Analytics.  
 Full list: See package.json.
 
-Updating Dependencies
-Run 
-npm outdated to check. 
-Update cautiously to avoid breaking changes.ContributingFork the repo.
-Create a feature branch:bash
+## Updating Dependencies
+Run npm outdated to check. Update cautiously to avoid breaking changes.
 
-git checkout -b feature/new-feature
+## Contributing
+1. Fork the repo.  
+2. Create a feature branch: git checkout -b feature/new-feature.  
+3. Commit changes: git commit -m 'Add new feature'.  
+4. Push: git push origin feature/new-feature.  
+5. Open a Pull Request.
 
-Commit changes:bash
+## License
+MIT License - see [LICENSE](./LICENSE) for details.
 
-git commit -m 'Add new feature'
-
-Push:bash
-
-git push origin feature/new-feature
-
-Open a Pull Request.
-
-License
-
-MIT License - see LICENSE (./LICENSE) for details.
-Contact
-
-GitHub: https://github.com/BroccoliFin
-X (Twitter): https://x.com/broccolifinance
-Telegram: https://t.me/devbroco
+## Contact
+- GitHub: https://github.com/BroccoliFin  
+- X (Twitter): https://x.com/broccolifinance  
+- Telegram: https://t.me/devbroco
 
 
 
