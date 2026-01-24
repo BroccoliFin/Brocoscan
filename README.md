@@ -28,7 +28,10 @@ Built on top of Create React App with custom overrides. Inspired by Solana ecosy
    git clone https://github.com/BroccoliFin/Brocoscan.git
 
 2. Navigate to the project directory:  
-   cd Brocoscan
+   bash
+
+cd Brocoscan
+
 
 3. Install dependencies:  
    npm install
