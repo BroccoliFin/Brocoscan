@@ -24,13 +24,15 @@ Built on top of Create React App with custom overrides. Inspired by Solana ecosy
 - Solana Wallet (e.g., Phantom) for optional interactions
 
 ## Installation
-1. Clone the repository:  
+1. Clone the repository:
+   ```bash
    git clone https://github.com/BroccoliFin/Brocoscan.git
 
-2. Navigate to the project directory:  
-   bash
+Navigate to the project directory:bash
 
 cd Brocoscan
+
+
 
 
 3. Install dependencies:  
