@@ -87,7 +87,7 @@ MIT License - see [LICENSE](./LICENSE) for details.
 ## Contact
 - GitHub: https://github.com/BroccoliFin  
 - X (Twitter): https://x.com/broccolifinance  
-- Telegram: https://t.me/devbroco
+- Telegram: https://t.me/mike2money
 
 
 
