@@ -2,7 +2,7 @@
 
 
 
-<h1 align="center">BrocoNFTCreator</h1>
+<h1 align="center">Brocoscan</h1>
 
 
 
