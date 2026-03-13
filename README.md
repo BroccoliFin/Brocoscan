@@ -1,6 +1,25 @@
-# Brocoscan: Solana Blockchain Explorer
+![Image](https://github.com/user-attachments/assets/5f0dec17-f419-4a7f-8d49-b5d966959f17)
 
-This repository provides a starter code and guide for building a customizable Solana blockchain explorer using @solana/web3.js and ReactJS. It's designed for developers to experiment with real-time monitoring of blocks, transactions, accounts, and tokens on Solana, simplifying integration via Shyft API.
+
+
+<h1 align="center">BrocoNFTCreator</h1>
+
+
+
+<p align="center">
+  <strong>Brocoscan: Solana Blockchain Explorer</strong>
+</p>
+
+
+
+
+
+<p align="center"><strong>This repository provides a starter code and guide for building a customizable Solana blockchain explorer using @solana/web3.js and ReactJS. It's designed for developers to experiment with real-time monitoring of blocks, transactions, accounts, and tokens on Solana, simplifying integration via Shyft API.</strong>
+</p>
+
+
+
+
 
 Built on top of Create React App with custom overrides. Inspired by Solana ecosystem tools and explorers like Solscan.
 
